@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 100vw;
+}
+
+.wrap header .container .headerMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #d6d6d6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 2px 24px;
+}
+
+.wrap header .container .headerMedia ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.wrap header .container .headerMedia ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 8px;
+}
+
+.wrap header .container .headerMedia ul li img {
+  margin-right: 2px;
+}
+
+.wrap header .container .headerMedia ul li a {
+  margin: 0px 2px;
+  text-decoration: none;
+}
+
+.wrap header .container .headerBar {
+  padding: 10px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap header .container .headerBar .headerNav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap header .container .headerBar .headerNav ul li {
+  list-style-type: none;
+  margin: 0px 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.wrap header .container .headerBar .headerNav ul li a {
+  color: #35ba35;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.wrap header .container .headerBar .headerNav ul li:hover {
+  background: #eeeeee;
+}
+
+.wrap header .container .headerBar .headerNav .active {
+  border-bottom: 2px solid #35ba35;
+}
+
+.wrap main {
+  margin: auto 0;
+}
+
+.wrap main .banner {
+  width: 100%;
+  background: url("/images/banner.png");
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap main .banner .bannerText {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.74);
+  padding: 2rem;
+}
+
+.wrap main .banner .bannerText h1 {
+  width: 100%;
+  color: white;
+  font-weight: normal;
+}
+
+.wrap main .courses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 1.25rem;
+  width: 100vw;
+  margin: 24px 0;
+}
+
+.wrap main .courses .courseItem {
+  -webkit-box-shadow: 3px 2px 2px silver;
+          box-shadow: 3px 2px 2px silver;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin: 0 12px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrap main .courses .courseItem h2 {
+  margin-bottom: 8px;
+}
+
+.wrap main .coursesCompare {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 24px 0;
+  min-height: 40vh;
+}
+
+.wrap main .coursesCompare .coursesCompareText {
+  padding: 20px 0;
+}
+
+.wrap main .coursesCompare .coursesCompareTable {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap main .coursesCompare .coursesCompareTable table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.wrap main .coursesCompare .coursesCompareTable table tr th {
+  background: rgba(201, 201, 201, 0.6);
+  border-top: 1px solid rgba(200, 200, 200, 0.8);
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.wrap main .coursesCompare .coursesCompareTable table tr td {
+  border-top: 1px solid rgba(200, 200, 200, 0.8);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.8);
+  padding: 10px 20px;
+}
+
+.wrap main .contactForm {
+  min-height: 40vh;
+  padding: 10px 0;
+  margin: auto;
+}
+
+.wrap footer {
+  min-height: 5vh;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrap footer ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap footer ul li p {
+  margin-right: 4px;
+}
+
+.wrap footer ul li a {
+  text-decoration: none;
+}
+
+.wrap footer ul li .important {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
