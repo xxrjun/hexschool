@@ -8,7 +8,7 @@
 
 .wrap {
   margin: 0 auto;
-  width: 100vw;
+  width: 1140px;
 }
 
 .wrap header .container .headerMedia {
@@ -132,7 +132,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0 1.25rem;
-  width: 100vw;
+  width: 100%;
   margin: 24px 0;
 }
 
@@ -171,6 +171,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 24px 0;
+  width: 100%;
   min-height: 40vh;
 }
 
@@ -206,10 +207,87 @@
   padding: 10px 20px;
 }
 
+.wrap main .coursesCompare .coursesCompareTable table tr .important {
+  color: #00cc99;
+}
+
 .wrap main .contactForm {
-  min-height: 40vh;
-  padding: 10px 0;
+  padding: 1rem 0;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left bottom, left top, from(#009772), to(#00644b));
+  background: linear-gradient(0deg, #009772 0%, #00644b 100%);
+}
+
+.wrap main .contactForm .formHeader h1 {
+  padding: 1rem 0;
+  color: white;
+}
+
+.wrap main .contactForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap main .contactForm form section {
+  width: 40%;
+}
+
+.wrap main .contactForm form .section-left {
+  margin: 0 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap main .contactForm form .section-left textarea {
+  resize: none;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.wrap main .contactForm form .section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap main .contactForm form .section-right .input-item {
+  width: 90%;
+}
+
+.wrap main .contactForm form .section-right .input-item label {
+  color: white;
+}
+
+.wrap main .contactForm form .section-right .input-item input {
+  border-radius: 8px;
+  padding: 2px 4px;
+  width: 100%;
+  font-size: 1rem;
 }
 
 .wrap footer {
