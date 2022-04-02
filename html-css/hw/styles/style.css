@@ -101,16 +101,17 @@
 
 .wrap main .banner {
   width: 100%;
-  background: url("/images/banner.png");
+  background: url("../images/banner.png");
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 460px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 36px;
 }
 
 .wrap main .banner .bannerText {
@@ -133,12 +134,12 @@
       justify-content: space-around;
   padding: 0 1.25rem;
   width: 100%;
-  margin: 24px 0;
+  margin-bottom: 36px;
 }
 
 .wrap main .courses .courseItem {
-  -webkit-box-shadow: 3px 2px 2px silver;
-          box-shadow: 3px 2px 2px silver;
+  -webkit-box-shadow: 0px 5px 10px silver;
+          box-shadow: 0px 5px 10px silver;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,17 +171,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 24px 0;
+  margin-bottom: 36px;
   width: 100%;
   min-height: 40vh;
 }
 
 .wrap main .coursesCompare .coursesCompareText {
-  padding: 20px 0;
+  padding: 0px 0 20px;
 }
 
 .wrap main .coursesCompare .coursesCompareTable {
-  width: 100vw;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,7 +213,7 @@
 }
 
 .wrap main .contactForm {
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,17 +241,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.wrap main .contactForm form section {
-  width: 40%;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .wrap main .contactForm form .section-left {
-  margin: 0 12px;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,7 +274,7 @@
 }
 
 .wrap main .contactForm form .section-right .input-item {
-  width: 90%;
+  margin-bottom: 12px;
 }
 
 .wrap main .contactForm form .section-right .input-item label {
@@ -284,10 +282,33 @@
 }
 
 .wrap main .contactForm form .section-right .input-item input {
-  border-radius: 8px;
-  padding: 2px 4px;
+  border-radius: 4px;
+  padding: 4px 8px;
   width: 100%;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.wrap main .contactForm form .section-right button {
+  background-color: #4caf50;
+  /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
   font-size: 1rem;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.wrap main .contactForm form .section-right button:hover {
+  color: #4caf50;
+  /* Green */
+  background-color: white;
 }
 
 .wrap footer {
